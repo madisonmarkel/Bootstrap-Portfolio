@@ -1,0 +1,126 @@
+    body {
+        background: url("../Bootstrap-Portfolio/images/background_pattern.png");
+    }
+/*SUPPORT STYLES*/
+    .text_center {
+        text-align: center;
+    }
+    .font_small {
+        font-size:86%;
+    }
+    .teal_text {
+        color: #4aaaa5;
+    }
+    .text_white {
+        color:#fff;
+    }
+/*HEADER*/
+    .site_header {
+        background: #fff;
+        width:100%;
+        padding: 0 3em;
+        margin-bottom: 1em;
+        box-shadow:1px 1px 5px black;
+    }
+    .name {
+        background: #4aaaa5;
+        color:#fff;
+        width:45%;
+        padding:.5em;
+        margin:0;
+        text-align: center;
+    }
+/*NAVIGATION*/
+    .nav-link {
+        color: #808080;
+        margin-top:1.5em;
+    }
+    .nav-link:hover {
+        color:#666666;
+    }
+/*ABOUT*/
+    .bio_pic {
+        max-width: 100%;
+        float:left;
+        padding-bottom:1em;
+    }
+    .card {
+        border:none;
+        background: url("/Users/madisonmarkel/Desktop/Bootstrap-Portfolio/background_pattern.png");
+    }
+    .card-body {
+        width:75%;
+        margin: 0 auto;
+        background: #fff;
+        border:1px solid #ddd;
+    }
+/*PORTFOLIO*/
+    .portfolio_square {
+        padding: 1em;
+        margin-bottom:1em;
+        width: 50%;
+    }
+    .portfolio_square h2 {
+        color:#fff;
+        text-shadow:1px 3px 8px #000;
+        text-align:center;
+        background: #44aaaa;
+        padding:.5em 0;
+        margin: 0;
+        width: 100%;
+    }
+    .portfolio_image1 {
+        /*background: url("/Users/madisonmarkel/Desktop/Bootstrap-Portfolio/images/lorempixel-1.jpg");*/
+        width:100%;
+    }
+    .portfolio_image2 {
+        background: url("/Users/madisonmarkel/Desktop/Bootstrap-Portfolio/images/lorempixel-2.jpg");
+    }
+    .portfolio_image3 {
+        background:url("/Users/madisonmarkel/Desktop/Bootstrap-Portfolio/images/lorempixel-3.jpg");
+    }
+    .portfolio_image4 {
+        background:url("/Users/madisonmarkel/Desktop/Bootstrap-Portfolio/images/lorempixel.jpg");
+    }
+    .portfolio_image5 {
+        background:url("/Users/madisonmarkel/Desktop/Bootstrap-Portfolio/images/200.jpg");
+    }
+    .portfolio_image6 {
+        background:url("/Users/madisonmarkel/Desktop/Bootstrap-Portfolio/images/lorempixel-1.jpg");
+    }
+/*CONTACT*/
+    #exampleInputMessage {
+        height: 10em;
+    }
+    .contact_width {
+        width:50%;
+    }
+    .btn-primary {
+        background:#49aaa4;
+        border-color:#49aaa4;
+    }
+/*FOOTER*/
+    footer {
+        background: #666666;
+        padding: 2em;
+        margin-top:2em;
+        border-top: 8px solid #4aaaa5;
+    }
+/*MEDIA SCREENS*/
+    @media screen and (max-width: 767px) {
+        .name {
+            width: 100%;
+        }
+        .site_header {
+            padding: 0;
+        }
+        .nav-link {
+            margin: 0 auto;
+        }
+        .card-body {
+            width: 90%;
+        }
+        .col-sm-6 {
+            clear:both;
+        }
+    }
